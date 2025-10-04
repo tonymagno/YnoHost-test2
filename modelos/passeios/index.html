@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventura Ilhabela - Turismo e Ecoturismo na Natureza</title>
+    <meta name="description" content="Descubra Ilhabela com a Aventura Ilhabela: trilhas, cachoeiras, passeios de barco, mergulho e muito mais. Viva experiências únicas na natureza!">
+    <meta name="keywords" content="turismo, ecoturismo, trilhas, cachoeiras, passeios, aventura, Ilhabela, natureza, mergulho, barco, guia turístico">
+    <meta name="author" content="YnotHost">
+    <meta property="og:title" content="Aventura Ilhabela - Turismo e Ecoturismo na Natureza">
+    <meta property="og:description" content="Descubra Ilhabela com a Aventura Ilhabela: trilhas, cachoeiras, passeios de barco, mergulho e muito mais. Viva experiências únicas na natureza!">
+    <meta property="og:image" content="../assets/images/turismo_hero.jpg">
+    <meta property="og:url" content="https://tonymagno.github.io/YnoHost/modelos/passeios/">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Aventura Ilhabela</h1>
+                <p>Explore a Natureza</p>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#passeios">Passeios</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#reservas" class="btn-cta">Reservar</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h2>Viva a Aventura em Ilhabela</h2>
+            <p>Descubra trilhas secretas, cachoeiras cristalinas e paisagens de tirar o fôlego com nossos guias especializados.</p>
+            <a href="#passeios" class="btn-primary">Conheça Nossos Passeios</a>
+            <a href="#reservas" class="btn-secondary">Agendar Aventura</a>
+        </div>
+        <div class="hero-stats">
+            <div class="stat">
+                <h3>500+</h3>
+                <p>Aventureiros Satisfeitos</p>
+            </div>
+            <div class="stat">
+                <h3>15+</h3>
+                <p>Trilhas Exclusivas</p>
+            </div>
+            <div class="stat">
+                <h3>8</h3>
+                <p>Anos de Experiência</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Nossa Missão</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>A Aventura Ilhabela nasceu da paixão pela natureza exuberante de nossa ilha. Somos uma empresa especializada em ecoturismo e turismo de aventura, comprometida em proporcionar experiências autênticas e inesquecíveis.</p>
+                    <p>Nossa equipe é formada por guias locais experientes, biólogos e especialistas em turismo sustentável. Conhecemos cada trilha, cada cachoeira e cada segredo que Ilhabela tem a oferecer.</p>
+                    <div class="mission-values">
+                        <div class="value">
+                            <i class="fas fa-leaf"></i>
+                            <h4>Sustentabilidade</h4>
+                            <p>Preservamos a natureza para as futuras gerações</p>
+                        </div>
+                        <div class="value">
+                            <i class="fas fa-shield-alt"></i>
+                            <h4>Segurança</h4>
+                            <p>Equipamentos de qualidade e protocolos rigorosos</p>
+                        </div>
+                        <div class="value">
+                            <i class="fas fa-heart"></i>
+                            <h4>Paixão</h4>
+                            <p>Amor genuíno pela natureza e pela aventura</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="../assets/images/guia_natureza.jpg" alt="Guia especializado em trilhas">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="passeios" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Nossos Passeios</h2>
+            <p class="section-subtitle">Aventuras para todos os níveis e idades.</p>
+            
+            <div class="tour-categories">
+                <div class="category active" data-category="trilhas">
+                    <i class="fas fa-hiking"></i>
+                    <span>Trilhas</span>
+                </div>
+                <div class="category" data-category="cachoeiras">
+                    <i class="fas fa-tint"></i>
+                    <span>Cachoeiras</span>
+                </div>
+                <div class="category" data-category="maritimos">
+                    <i class="fas fa-ship"></i>
+                    <span>Marítimos</span>
+                </div>
+                <div class="category" data-category="aventura">
+                    <i class="fas fa-mountain"></i>
+                    <span>Aventura</span>
+                </div>
+            </div>
+
+            <div class="tours-grid">
+                <!-- Trilhas -->
+                <div class="tour-card trilhas active">
+                    <img src="../assets/images/trilha_bonete.jpg" alt="Trilha do Bonete">
+                    <div class="tour-info">
+                        <div class="tour-difficulty easy">Fácil</div>
+                        <h3>Trilha do Bonete</h3>
+                        <p>Uma das praias mais selvagens de Ilhabela. Trilha de 3km com paisagens deslumbrantes.</p>
+                        <div class="tour-details">
+                            <span><i class="fas fa-clock"></i> 4h</span>
+                            <span><i class="fas fa-users"></i> Até 12 pessoas</span>
+                            <span><i class="fas fa-map-marked-alt"></i> 3km</span>
+                        </div>
+                        <div class="tour-price">
+                            <span class="price">R$ 80</span>
+                            <span class="period">/pessoa</span>
+                        </div>
+                        <a href="#reservas" class="btn-tour">Reservar</a>
+                    </div>
+                </div>
+
+                <div class="tour-card trilhas">
+                    <img src="../assets/images/pico_sao_sebastiao.jpg" alt="Pico de São Sebastião">
+                    <div class="tour-info">
+                        <div class="tour-difficulty hard">Difícil</div>
+                        <h3>Pico de São Sebastião</h3>
+                        <p>O ponto mais alto de Ilhabela. Vista panorâmica de 360° da ilha e do continente.</p>
+                        <div class="tour-details">
+                            <span><i class="fas fa-clock"></i> 8h</span>
+                            <span><i class="fas fa-users"></i> Até 8 pessoas</span>
+                            <span><i class="fas fa-mountain"></i> 1379m</span>
+                        </div>
+                        <div class="tour-price">
+                            <span class="price">R$ 150</span>
+                            <span class="period">/pessoa</span>
+                        </div>
+                        <a href="#reservas" class="btn-tour">Reservar</a>
+                    </div>
+                </div>
+
+                <!-- Cachoeiras -->
+                <div class="tour-card cachoeiras">
+                    <img src="../assets/images/cachoeira_toca.jpg" alt="Cachoeira da Toca">
+                    <div class="tour-info">
+                        <div class="tour-difficulty medium">Médio</div>
+                        <h3>Cachoeira da Toca</h3>
+                        <p>Cachoeira de 40 metros com piscina natural cristalina. Perfeita para relaxar.</p>
+                        <div class="tour-details">
+                            <span><i class="fas fa-clock"></i> 3h</span>
+                            <span><i class="fas fa-users"></i> Até 15 pessoas</span>
+                            <span><i class="fas fa-thermometer-half"></i> Água gelada</span>
+                        </div>
+                        <div class="tour-price">
+                            <span class="price">R$ 60</span>
+                            <span class="period">/pessoa</span>
+                        </div>
+                        <a href="#reservas" class="btn-tour">Reservar</a>
+                    </div>
+                </div>
+
+                <div class="tour-card cachoeiras">
+                    <img src="../assets/images/cachoeira_tres_tombos.jpg" alt="Cachoeira Três Tombos">
+                    <div class="tour-info">
+                        <div class="tour-difficulty easy">Fácil</div>
+                        <h3>Cachoeira Três Tombos</h3>
+                        <p>Três quedas d'água em sequência. Ideal para famílias com crianças.</p>
+                        <div class="tour-details">
+                            <span><i class="fas fa-clock"></i> 2h</span>
+                            <span><i class="fas fa-users"></i> Até 20 pessoas</span>
+                            <span><i class="fas fa-child"></i> Família</span>
+                        </div>
+                        <div class="tour-price">
+                            <span class="price">R$ 45</span>
+                            <span class="period">/pessoa</span>
+                        </div>
+                        <a href="#reservas" class="btn-tour">Reservar</a>
+                    </div>
+                </div>
+
+                <!-- Marítimos -->
+                <div class="tour-card maritimos">
+                    <img src="../assets/images/Xd4k1GTCiL82.jpeg" alt="Passeio de Barco">
+                    <div class="tour-info">
+                        <div class="tour-difficulty easy">Fácil</div>
+                        <h3>Volta à Ilha de Barco</h3>
+                        <p>Conheça as praias mais belas de Ilhabela em um passeio completo de barco.</p>
+                        <div class="tour-details">
+                            <span><i class="fas fa-clock"></i> 6h</span>
+                            <span><i class="fas fa-users"></i> Até 25 pessoas</span>
+                            <span><i class="fas fa-utensils"></i> Almoço incluso</span>
+                        </div>
+                        <div class="tour-price">
+                            <span class="price">R$ 120</span>
+                            <span class="period">/pessoa</span>
+                        </div>
+                        <a href="#reservas" class="btn-tour">Reservar</a>
+                    </div>
+                </div>
+
+                <div class="tour-card maritimos">
+                    <img src="../assets/images/bnQO22vByBav.webp" alt="Mergulho">
+                    <div class="tour-info">
+                        <div class="tour-difficulty medium">Médio</div>
+                        <h3>Mergulho com Cilindro</h3>
+                        <p>Explore a vida marinha de Ilhabela com equipamentos profissionais.</p>
+                        <div class="tour-details">
+                            <span><i class="fas fa-clock"></i> 4h</span>
+                            <span><i class="fas fa-users"></i> Até 6 pessoas</span>
+                            <span><i class="fas fa-certificate"></i> Certificação</span>
+                        </div>
+                        <div class="tour-price">
+                            <span class="price">R$ 200</span>
+                            <span class="period">/pessoa</span>
+                        </div>
+                        <a href="#reservas" class="btn-tour">Reservar</a>
+                    </div>
+                </div>
+
+                <!-- Aventura -->
+                <div class="tour-card aventura">
+                    <img src="../assets/images/tirolesa.jpg" alt="Tirolesa">
+                    <div class="tour-info">
+                        <div class="tour-difficulty medium">Médio</div>
+                        <h3>Tirolesa na Mata Atlântica</h3>
+                        <p>Adrenalina pura voando sobre a copa das árvores da Mata Atlântica.</p>
+                        <div class="tour-details">
+                            <span><i class="fas fa-clock"></i> 2h</span>
+                            <span><i class="fas fa-users"></i> Até 10 pessoas</span>
+                            <span><i class="fas fa-ruler"></i> 300m</span>
+                        </div>
+                        <div class="tour-price">
+                            <span class="price">R$ 90</span>
+                            <span class="period">/pessoa</span>
+                        </div>
+                        <a href="#reservas" class="btn-tour">Reservar</a>
+                    </div>
+                </div>
+
+                <div class="tour-card aventura">
+                    <img src="../assets/images/rapel.jpg" alt="Rapel">
+                    <div class="tour-info">
+                        <div class="tour-difficulty hard">Difícil</div>
+                        <h3>Rapel na Cachoeira</h3>
+                        <p>Desça em rapel por uma cachoeira de 25 metros. Experiência única!</p>
+                        <div class="tour-details">
+                            <span><i class="fas fa-clock"></i> 3h</span>
+                            <span><i class="fas fa-users"></i> Até 6 pessoas</span>
+                            <span><i class="fas fa-ruler-vertical"></i> 25m</span>
+                        </div>
+                        <div class="tour-price">
+                            <span class="price">R$ 110</span>
+                            <span class="period">/pessoa</span>
+                        </div>
+                        <a href="#reservas" class="btn-tour">Reservar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Galeria de Aventuras</h2>
+            <p class="section-subtitle">Momentos únicos capturados em nossas expedições.</p>
+            <div class="gallery-grid">
+                <img src="../assets/images/galeria1.jpg" alt="Trilha na mata atlântica">
+                <img src="../assets/images/galeria2.jpg" alt="Cachoeira cristalina">
+                <img src="../assets/images/galeria3.jpg" alt="Vista do pico">
+                <img src="../assets/images/galeria4.jpg" alt="Grupo de aventureiros">
+                <img src="../assets/images/galeria5.jpg" alt="Mergulho em águas cristalinas">
+                <img src="../assets/images/galeria6.jpg" alt="Pôr do sol na praia">
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">O Que Dizem Nossos Aventureiros</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial active">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Experiência incrível! Os guias são super preparados e conhecem cada detalhe da ilha. A trilha do Bonete foi inesquecível!"</p>
+                    <div class="testimonial-author">
+                        <img src="../assets/images/cliente1.jpg" alt="Cliente">
+                        <div>
+                            <strong>Marina Santos</strong>
+                            <span>São Paulo, SP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Fizemos o passeio de barco e foi perfeito! Conhecemos praias paradisíacas e a equipe foi muito atenciosa."</p>
+                    <div class="testimonial-author">
+                        <img src="../assets/images/cliente2.jpg" alt="Cliente">
+                        <div>
+                            <strong>Carlos Oliveira</strong>
+                            <span>Rio de Janeiro, RJ</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"A tirolesa foi pura adrenalina! Recomendo para quem busca aventura e contato com a natureza."</p>
+                    <div class="testimonial-author">
+                        <img src="../assets/images/cliente3.jpg" alt="Cliente">
+                        <div>
+                            <strong>Ana Costa</strong>
+                            <span>Belo Horizonte, MG</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservas" class="section-padding bg-dark text-white">
+        <div class="container text-center">
+            <h2 class="section-title">Reserve Sua Aventura</h2>
+            <p class="section-subtitle">Pronto para viver experiências inesquecíveis?</p>
+            <div class="booking-info">
+                <div class="info-item">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Agendamento Flexível</h3>
+                    <p>Passeios todos os dias, sujeito às condições climáticas</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-users"></i>
+                    <h3>Grupos Pequenos</h3>
+                    <p>Máximo 25 pessoas para melhor experiência</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Segurança Garantida</h3>
+                    <p>Equipamentos certificados e guias experientes</p>
+                </div>
+            </div>
+            <div class="booking-buttons">
+                <a href="tel:+5512978135300" class="btn-primary"><i class="fas fa-phone"></i> Ligar Agora</a>
+                <a href="https://wa.me/5512978135300?text=Olá!%20Gostaria%20de%20agendar%20um%20passeio%20com%20a%20Aventura%20Ilhabela." target="_blank" class="btn-secondary"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Informações de Contato</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Rua da Aventura, 789 - Vila, Ilhabela - SP</p>
+                    <p><i class="fas fa-phone"></i> (12) 97813-5300</p>
+                    <p><i class="fas fa-envelope"></i> contato@aventurailhabela.com.br</p>
+                    <p><i class="fas fa-clock"></i> Atendimento: 7h às 19h</p>
+                    
+                    <h4>Dicas Importantes:</h4>
+                    <ul>
+                        <li>• Use roupas confortáveis e tênis adequado</li>
+                        <li>• Leve protetor solar e repelente</li>
+                        <li>• Hidrate-se bem durante os passeios</li>
+                        <li>• Respeite a natureza e não deixe lixo</li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <h3>Solicite um Orçamento</h3>
+                    <form>
+                        <input type="text" placeholder="Seu Nome" required>
+                        <input type="email" placeholder="Seu E-mail" required>
+                        <input type="tel" placeholder="Seu Telefone" required>
+                        <select required>
+                            <option value="">Escolha o Passeio</option>
+                            <option value="trilha-bonete">Trilha do Bonete</option>
+                            <option value="pico-sao-sebastiao">Pico de São Sebastião</option>
+                            <option value="cachoeira-toca">Cachoeira da Toca</option>
+                            <option value="volta-ilha">Volta à Ilha de Barco</option>
+                            <option value="mergulho">Mergulho</option>
+                            <option value="tirolesa">Tirolesa</option>
+                            <option value="rapel">Rapel</option>
+                        </select>
+                        <input type="date" required>
+                        <input type="number" placeholder="Número de Pessoas" min="1" required>
+                        <textarea placeholder="Observações" rows="4"></textarea>
+                        <button type="submit" class="btn-primary">Solicitar Orçamento</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Aventura Ilhabela</h3>
+                    <p>Conectando pessoas à natureza através de experiências autênticas e sustentáveis em Ilhabela.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Nossos Passeios</h3>
+                    <ul>
+                        <li><a href="#passeios">Trilhas</a></li>
+                        <li><a href="#passeios">Cachoeiras</a></li>
+                        <li><a href="#passeios">Passeios Marítimos</a></li>
+                        <li><a href="#passeios">Turismo de Aventura</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <p><i class="fas fa-phone"></i> (12) 97813-5300</p>
+                    <p><i class="fas fa-envelope"></i> contato@aventurailhabela.com.br</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Ilhabela - SP</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Aventura Ilhabela. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5512978135300?text=Olá!%20Gostaria%20de%20agendar%20um%20passeio%20com%20a%20Aventura%20Ilhabela." target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
