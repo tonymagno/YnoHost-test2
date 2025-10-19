@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/22703239/README.md)
 '''
 # YnotHost - Landing Page
 

@@ -3,70 +3,396 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>YnotHost - Hospedagem e Sites Profissionais</title>
+  <meta name="description" content="Crie seu site profissional com a YnotHost! Hospedagem rápida, suporte 24/7 e modelos personalizados para padarias, clínicas e lojas virtuais. Tenha seu site online em 48h!">
+  <meta name="keywords" content="criação de sites, hospedagem de sites, sites profissionais, site para padaria, site para clínica, loja virtual, web design, desenvolvimento web, Ilhabela">
+  <meta name="author" content="YnotHost">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.ynothost.com.br/"> <!-- Substituir pelo URL real do seu site -->
+  <meta property="og:title" content="YnotHost - Sites Profissionais e Hospedagem">
+  <meta property="og:description" content="Crie seu site profissional com a YnotHost! Hospedagem rápida, suporte 24/7 e modelos personalizados para padarias, clínicas e lojas virtuais. Tenha seu site online em 48h!">
+  <meta property="og:image" content="https://www.ynothost.com.br/assets/images/og-image.jpg"> <!-- Substituir por uma imagem de pré-visualização do seu site -->
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://www.ynothost.com.br/"> <!-- Substituir pelo URL real do seu site -->
+  <meta property="twitter:title" content="YnotHost - Sites Profissionais e Hospedagem">
+  <meta property="twitter:description" content="Crie seu site profissional com a YnotHost! Hospedagem rápida, suporte 24/7 e modelos personalizados para padarias, clínicas e lojas virtuais. Tenha seu site online em 48h!">
+  <meta property="twitter:image" content="https://www.ynothost.com.br/assets/images/og-image.jpg"> <!-- Substituir por uma imagem de pré-visualização do seu site -->
+
+  <title>YnotHost - Sites Profissionais e Hospedagem</title>nt="Hospedagem rápida, suporte dedicado e sites profissionais para qualquer negócio. Conheça nossos planos a partir de R$ 25,69/mês.">
+  <meta name="keywords" content="hospedagem de sites, criar site, site profissional, YnotHost, hospedagem barata, hospedagem web">
+  <meta name="author" content="YnotHost">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ynothost.com.br/">
+  <meta property="og:title" content="YnotHost - Hospedagem de Sites Profissionais">
+  <meta property="og:description" content="Hospedagem rápida, suporte dedicado e sites profissionais para qualquer negócio.">
+  <meta property="og:image" content="https://ynothost.com.br/assets/og-image.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://ynothost.com.br/">
+  <meta property="twitter:title" content="YnotHost - Hospedagem de Sites Profissionais">
+  <meta property="twitter:description" content="Hospedagem rápida, suporte dedicado e sites profissionais para qualquer negócio.">
+  <meta property="twitter:image" content="https://ynothost.com.br/assets/og-image.jpg">
+
+  <title>YnotHost - Hospedagem de Sites Profissionais</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorig  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome (Ícones) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  
+  <!-- Arquivo de CSS -->
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="header">
-    <div class="logo">YnotHost</div>
-    <nav>
-      <a href="#planos">Planos</a>
-      <a href="#modelos">Modelos</a>
-      <a href="#contato">Contato</a>
-    </nav>
+  <!-- Skip to main content para acessibilidade -->
+  <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+  <header role="banner">
+    <div class="top-bar">
+      <div class="container">
+        <div class="top-bar-content">
+          <div class="top-bar-left">
+            <span><i class="fas fa-phone"></i> (12) 97813-5300</span>
+            <span><i class="fas fa-envelope"></i> contato@ynothost.com.br</span>
+            <span><i class="fas fa-map-marker-alt"></i> Ilhabela e região</span>
+          </div>
+          <div class="top-bar-right">
+            <span class="service-highlight">
+              <i class="fas fa-rocket"></i> Sites em 48h
+            </span>
+            <span class="service-highlight">
+              <i class="fas fa-headset"></i> Suporte 24/7
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="main-header">
+      <div class="container">
+        <h1 class="logo">
+          <span class="logo-icon">🚀</span>
+          <span class="logo-text">
+            <span class="logo-main">Ynot</span><span class="logo-accent">Host</span>
+          </span>
+          <span class="logo-tagline">Sites Profissionais</span>
+        </h1>
+        
+        <nav role="navigation" aria-label="Menu principal">
+          <ul>
+            <li><a href="#planos">Planos</a></li>
+            <li><a href="#modelos">Modelos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+        
+        <div class="header-cta">
+          <a href="https://wa.me/5512978135300?text=Olá! Quero criar meu site profissional. Pode me ajudar?" class="btn btn-primary btn-small" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-whatsapp"></i> Fale Conosco
+          </a>
+        </div>
+      </div>
+    </div>
   </header>
 
-  <section class="hero">
-    <h1>Seu site online, rápido e seguro 🚀</h1>
-    <p>Hospedagem com suporte dedicado e sites profissionais para qualquer negócio.</p>
-    <a href="https://wa.me/5512978135300" class="btn">Fale no WhatsApp</a>
-  </section>
+  <main id="main-content" role="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-background">
+        <img src="assets/images/bsBRqBb44S7U.jpg" alt="Criação de sites profissionais" class="hero-bg-image">
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h2 id="hero-title">Seu Site Profissional em <span class="highlight">48 Horas!</span></h2>
+            <p class="hero-subtitle">Criamos sites modernos e responsivos para sua empresa. Hospedagem confiável, suporte 24/7 e preços que cabem no seu bolso.</p>
+            
+            <div class="hero-features">
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <i class="fas fa-rocket"></i>
+                </div>
+                <div class="feature-content">
+                  <h3>Site em 48h</h3>
+                  <p>Seu site profissional pronto rapidamente</p>
+                </div>
+              </div>
+              
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <i class="fas fa-headset"></i>
+                </div>
+                <div class="feature-content">
+                  <h3>Suporte 24/7</h3>
+                  <p>Atendimento sempre que precisar</p>
+                </div>
+              </div>
+              
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <i class="fas fa-shield-alt"></i>
+                </div>
+                <div class="feature-content">
+                  <h3>Hospedagem Segura</h3>
+                  <p>SSL grátis e backups automáticos</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="hero-cta">
+              <a href="https://wa.me/5512978135300?text=Olá! Quero criar meu site profissional. Pode me ajudar?" class="btn btn-primary cta-main" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-whatsapp"></i> Quero Meu Site Agora
+              </a>
+              <a href="#planos" class="btn btn-secondary">Ver Planos e Preços</a>
+            </div>
 
-  <section id="planos" class="section">
-    <h2>Nossos Planos</h2>
-    <div class="plans">
-      <div class="plan">
-        <h3>Básico</h3>
-        <p>Até 5 páginas + e-mail profissional + SSL</p>
-        <div class="price">R$ 25,69/mês</div>
+            <div class="hero-stats">
+              <div class="stat-item">
+                <div class="stat-number">500+</div>
+                <div class="stat-label">Sites Criados</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">99.9%</div>
+                <div class="stat-label">Uptime</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">24/7</div>
+                <div class="stat-label">Suporte</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="hero-image">
+            <div class="hero-showcase">
+              <img src="assets/images/TFy4vJd6wb4w.jpg" alt="Desenvolvimento de sites profissionais" class="showcase-main" loading="lazy">
+              <img src="assets/images/7pbDO0ZzNJoD.png" alt="Sites responsivos e modernos" class="showcase-secondary" loading="lazy">
+            </div>
+            
+            <div class="floating-badge">
+              <div class="badge-icon">
+                <i class="fas fa-award"></i>
+              </div>
+              <div class="badge-content">
+                <span class="badge-title">Qualidade</span>
+                <span class="badge-subtitle">Garantida</span>
+              </div>
+            </div>
+            
+            <div class="floating-card">
+              <div class="card-icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <div class="card-content">
+                <h4>Performance</h4>
+                <p>Sites otimizados</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="plan">
-        <h3>Pro</h3>
-        <p>Até 10 páginas + SEO básico + suporte</p>
-        <div class="price">R$ 35,00/mês</div>
+    </section>
+
+    <section id="planos" aria-labelledby="planos-title">
+      <div class="container">
+        <h2 id="planos-title">Nossos Planos</h2>
+        <div class="plans">
+          <article class="plan" role="article">
+            <i class="fa-solid fa-laptop-code" aria-hidden="true"></i>
+            <h3>Básico</h3>
+            <p>Até 5 páginas + e-mail profissional + SSL</p>
+            <div class="price" aria-label="Preço: R$ 25,69 por mês">R$ 25,69<span>/mês</span></div>
+            <a href="https://wa.me/5512978135300?text=Olá! Quero contratar o plano Básico (R$ 25,69/mês). Pode me enviar mais detalhes?" class="btn btn-secondary" target="_blank" rel="noopener noreferrer" aria-label="Contratar plano Básico">
+              <i class="fab fa-whatsapp"></i> Contratar Agora
+            </a>
+          </article>
+          
+          <article class="plan plan-popular" role="article">
+            <div class="popular-badge" aria-label="Plano mais vendido">Mais Vendido</div>
+            <i class="fa-solid fa-fire" aria-hidden="true"></i>
+            <h3>🔥 Pro</h3>
+            <p>Até 10 páginas + SEO básico + suporte</p>
+            <div class="price" aria-label="Preço: R$ 35,00 por mês">R$ 35,00<span>/mês</span></div>
+            <a href="https://wa.me/5512978135300?text=Olá! Quero contratar o plano Pro (R$ 35,00/mês) - o mais vendido! Pode me enviar mais detalhes?" class="btn btn-primary" target="_blank" rel="noopener noreferrer" aria-label="Contratar plano Pro">
+              <i class="fab fa-whatsapp"></i> Contratar Agora
+            </a>
+          </article>
+          
+          <article class="plan" role="article">
+            <i class="fa-solid fa-store" aria-hidden="true"></i>
+            <h3>Premium</h3>
+            <p>Loja virtual + marketing + suporte avançado</p>
+            <div class="price" aria-label="Preço: R$ 60,00 por mês">R$ 60,00<span>/mês</span></div>
+            <a href="https://wa.me/5512978135300?text=Olá! Quero contratar o plano Premium (R$ 60,00/mês) com loja virtual. Pode me enviar mais detalhes?" class="btn btn-secondary" target="_blank" rel="noopener noreferrer" aria-label="Contratar plano Premium">
+              <i class="fab fa-whatsapp"></i> Contratar Agora
+            </a>
+          </article>
+        </div>
       </div>
-      <div class="plan">
-        <h3>Premium</h3>
-        <p>Loja virtual + marketing + suporte avançado</p>
-        <div class="price">R$ 60,00/mês</div>
+    </section>
+
+    <section id="modelos" aria-labelledby="modelos-title">
+      <div class="container">
+        <h2 id="modelos-title">Modelos de Sites</h2>
+        <p>Escolha um modelo e personalizamos para sua empresa:</p>
+        <div class="models">
+          <article class="model" role="article">
+            <a href="modelos/padaria/index.html" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/NL6VQlT3fqT8.webp" alt="Exemplo de site para padaria com design moderno" loading="lazy">
+              <div class="model-content">
+                <h3>Padaria</h3>
+                <p>Design moderno para padarias e lanchonetes.</p>
+                <span class="model-link">Ver Demonstração <i class="fas fa-external-link-alt"></i></span>
+              </div>
+            </a>
+          </article>
+          
+          <article class="model" role="article">
+            <a href="modelos/clinica/index.html" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/xZJEfDAtGpWl.jpg" alt="Exemplo de site para clínica com layout profissional" loading="lazy">
+              <div class="model-content">
+                <h3>Clínica</h3>
+                <p>Site profissional para clínicas e consultórios.</p>
+                <span class="model-link">Ver Demonstração <i class="fas fa-external-link-alt"></i></span>
+              </div>
+            </a>
+          </article>
+          
+          <article class="model" role="article">
+            <a href="modelos/loja-virtual/index.html" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/5oxjRXUS0zxj.jpg" alt="Exemplo de loja virtual com sistema de vendas online" loading="lazy">
+              <div class="model-content">
+                <h3>Loja Virtual</h3>
+                <p>Pronto para vender online.</p>
+                <span class="model-link">Ver Demonstração <i class="fas fa-external-link-alt"></i></span>
+              </div>
+            </a>
+          </article>
+          
+          <article class="model" role="article">
+            <a href="modelos/contabilidade/index.html" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/ONSFDQ9F7tYD.jpg" alt="Exemplo de site para contabilidade com design profissional" loading="lazy">
+              <div class="model-content">
+                <h3>Contabilidade</h3>
+                <p>Site profissional para escritórios contábeis.</p>
+                <span class="model-link">Ver Demonstração <i class="fas fa-external-link-alt"></i></span>
+              </div>
+            </a>
+          </article>
+          
+          <article class="model" role="article">
+            <a href="modelos/restaurante/index.html" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/restaurante_hero.jpg" alt="Exemplo de site para restaurante com design elegante" loading="lazy">
+              <div class="model-content">
+                <h3>Restaurante</h3>
+                <p>Design elegante para restaurantes e bares.</p>
+                <span class="model-link">Ver Demonstração <i class="fas fa-external-link-alt"></i></span>
+              </div>
+            </a>
+          </article>
+          
+          <article class="model" role="article">
+            <a href="modelos/pousada/index.html" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/wVqBvs1eOlvB.jpg" alt="Exemplo de site para pousada com design acolhedor" loading="lazy">
+              <div class="model-content">
+                <h3>Pousada</h3>
+                <p>Site acolhedor para pousadas e hotéis.</p>
+                <span class="model-link">Ver Demonstração <i class="fas fa-external-link-alt"></i></span>
+              </div>
+            </a>
+          </article>
+          
+          <article class="model" role="article">
+            <a href="modelos/passeios/index.html" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/qAoHxLEsRNow.jpg" alt="Exemplo de site para turismo e passeios com design aventureiro" loading="lazy">
+              <div class="model-content">
+                <h3>Turismo & Passeios</h3>
+                <p>Site dinâmico para turismo e aventura.</p>
+                <span class="model-link">Ver Demonstração <i class="fas fa-external-link-alt"></i></span>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contato" role="contentinfo">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3><span class="logo-icon">🚀</span> YnotHost</h3>
+          <p class="footer-tagline">Sites profissionais a partir de R$ 25,69/mês – Fale agora e tenha o seu em 48h!</p>
+          <div class="social-links">
+            <a href="https://wa.me/5512978135300" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="mailto:tony_brak@hotmail.com" aria-label="E-mail">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h4>Contato</h4>
+          <div class="contact-info">
+            <p><i class="fas fa-phone"></i> <a href="tel:+5512978135300">(12) 97813-5300</a></p>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:tony_brak@hotmail.com">tony_brak@hotmail.com</a></p>
+            <p><i class="fas fa-map-marker-alt"></i> Atendemos Ilhabela e região</p>
+            <p><i class="fas fa-clock"></i> Seg-Sex: 8h às 18h</p>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h4>Nossos Planos</h4>
+          <ul class="footer-links">
+            <li><a href="https://wa.me/5512978135300?text=Quero saber mais sobre o plano Básico">Básico - R$ 25,69/mês</a></li>
+            <li><a href="https://wa.me/5512978135300?text=Quero saber mais sobre o plano Pro">Pro - R$ 35,00/mês</a></li>
+            <li><a href="https://wa.me/5512978135300?text=Quero saber mais sobre o plano Premium">Premium - R$ 60,00/mês</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Modelos de Sites</h4>
+          <ul class="footer-links">
+            <li><a href="modelos/padaria/index.html" target="_blank">Sites para Padarias</a></li>
+            <li><a href="modelos/clinica/index.html" target="_blank">Sites para Clínicas</a></li>
+            <li><a href="modelos/loja-virtual/index.html" target="_blank">Lojas Virtuais</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-content">
+          <p>&copy; 2025 YnotHost - Todos os direitos reservados.</p>
+          <p>Desenvolvido com ❤️ para impulsionar seu negócio online</p>
+        </div>
+        <div class="footer-cta">
+          <a href="https://wa.me/5512978135300?text=Olá! Quero criar meu site profissional agora!" class="btn btn-primary btn-small" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-whatsapp"></i> Criar Meu Site
+          </a>
+        </div>
       </div>
     </div>
-  </section>
-
-  <section id="modelos" class="section">
-    <h2>Modelos de Sites</h2>
-    <div class="models">
-      <div class="model">
-        <img src="assets/images/padaria.jpg" alt="Modelo Padaria">
-        <h3>Padaria</h3>
-      </div>
-      <div class="model">
-        <img src="assets/images/clinica.jpg" alt="Modelo Clínica">
-        <h3>Clínica</h3>
-      </div>
-      <div class="model">
-        <img src="assets/images/loja.jpg" alt="Modelo Loja Virtual">
-        <h3>Loja Virtual</h3>
-      </div>
-    </div>
-  </section>
-
-  <footer id="contato" class="footer">
-    <p>📞 (12) 97813-5300 | ✉ contato@ynothost.com.br</p>
-    <p>© 2025 YnotHost - Sites profissionais a partir de R$ 25,69/mês.</p>
   </footer>
 
-  <a href="https://wa.me/5512978135300" class="whatsapp-float">💬</a>
+  <!-- Botão WhatsApp Flutuante -->
+  <a href="https://wa.me/5512978135300?text=Olá! Quero criar meu site profissional. Pode me ajudar?" class="whatsapp" aria-label="Fale conosco no WhatsApp" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
 </body>
 </html>
